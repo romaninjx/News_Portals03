@@ -1,0 +1,32 @@
+{% extends 'flatpages/default.html' %}
+{% load custom_filters %}
+
+
+{% block title %}
+{{ new.name_post }}
+{% endblock title %}
+
+
+{% block content %}
+   <h1>{{ new.get_post_type_display }}: {{ new.name_post }}.</h1>
+   <h3>Новостной рейтинг: «{{ new.rating_post_user }}» {{ new.date_time_create }}</h3>
+
+   {% if new %}
+   <hr>
+       <h2>{{ new.post_link.author }}, Содержание:</h2>
+       <table>
+           <tr>
+               <td><h3>{{ new.text_post|censor|safe }}</h3></td>
+               <td><h2>Категории:</h2>
+                   <ul>
+                       {% for category in new.get_categories %}
+                       <li><h3>{{ category.name_category }}</h3></li>
+                       {% endfor %}
+                   </ul>
+               </td>
+           </tr>
+       </table>
+   {% else %}
+       <h2>Такой новости больше нет!</h2>
+   {% endif %}
+{% endblock content %}

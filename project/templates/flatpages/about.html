@@ -1,0 +1,15 @@
+
+{% extends 'flatpages/default.html' %}
+
+{% block title %}
+Главная страница
+{% endblock title %}
+
+{% block content %}
+
+<p>Привет, это главная страница моего сайта!</p>
+<hr>
+
+{{ flatpage.content }}
+<p>{{ flatpage.content }}</p>
+{% endblock content %}
