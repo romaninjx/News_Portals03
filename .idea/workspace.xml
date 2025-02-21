@@ -4,24 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="42d31563-bd7c-412e-8079-73f8b8b42a34" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/news_portal002.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/News_Portal/templatetags/custom_filters.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/News_Portal/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/db.sqlite3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/fpages/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/static/assets/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/static/css/styles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/static/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/templates/flatpages/about.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/templates/flatpages/default.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/templates/new.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/templates/news.html" afterDir="false" />
+    <list default="true" id="42d31563-bd7c-412e-8079-73f8b8b42a34" name="Changes" comment="create filter">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,7 +13,11 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="PREVIEW_PUSH_PROTECTED_ONLY" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubDefaultAccount">
+    <option name="defaultAccountId" value="a8b12e78-ce7e-4fc0-a430-ff701956c1a6" />
   </component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 3
@@ -47,6 +35,9 @@
     "git-widget-placeholder": "master",
     "last_opened_file_path": "B:/PyCharm Project/news_portal002/project/News_Portal",
     "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
+  },
+  "keyToStringList": {
+    "ChangesTree.GroupingKeys": []
   }
 }]]></component>
   <component name="RecentsManager">
@@ -71,6 +62,15 @@
       <option name="presentableId" value="Default" />
       <updated>1740155855036</updated>
     </task>
+    <task id="LOCAL-00001" summary="create filter">
+      <option name="closed" value="true" />
+      <created>1740160459418</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1740160459418</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -83,5 +83,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="create filter" />
+    <option name="LAST_COMMIT_MESSAGE" value="create filter" />
   </component>
 </project>
