@@ -1,0 +1,9 @@
+{% extends 'news.html' %}
+
+    {% block button  %}
+    <form action="" method="get">
+       {{ filterset.form.as_p }}  <!-- Генерация полей формы на основе фильтров -->
+       <input type="submit" value="Найти" />  <!-- Кнопка для отправки формы -->
+   </form>
+
+    {% endblock button %}

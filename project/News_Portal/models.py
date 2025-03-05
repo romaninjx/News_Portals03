@@ -1,5 +1,6 @@
 from django.db import models
 from django.contrib.auth.models import User
+from django.urls import reverse
 # Create your models here.
 
 
@@ -29,6 +30,9 @@ class Post(models.Model):
     name_post = models.TextField()
     text_post = models.TextField()
     rating_post_user = models.IntegerField(default=0)   #возможно нужно чтото придумать
+
+    def get_absolute_url(self):  # это прописать в классе products
+        return reverse('post_info', args=[str(self.id)])
 
     def get_categories(self):
         return self.categories.all()

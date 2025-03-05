@@ -1,0 +1,7 @@
+{% extends 'flatpages/default.html' %}
+
+{% block content %}
+    <h1>{{ error_name }}</h1>
+    <p>{{ error_message }}</p>
+    <a href="{% url 'post_search' %}">Вернуться на главную страницу</a>  <!-- Убедитесь, что у вас есть такое URL -->
+{% endblock %}
