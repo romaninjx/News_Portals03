@@ -1,5 +1,7 @@
 from django import forms
 from .models import Post, Category
+from allauth.account.forms import SignupForm
+from django.contrib.auth.models import Group
 
 class ArticlesForm(forms.ModelForm):
     categories = forms.ModelMultipleChoiceField(
@@ -36,3 +38,14 @@ class NewsForm(ArticlesForm):
             post.save()  # Сохраняем объект
             self.save_m2m()  # Затем сохраняем многие ко многим
         return post
+
+
+
+
+class BasicSignupForm(SignupForm):
+
+    def save(self, request):
+        user = super(BasicSignupForm, self).save(request)
+        basic_group = Group.objects.get(name='common')
+        basic_group.user_set.add(user)
+        return user

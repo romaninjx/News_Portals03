@@ -1,6 +1,7 @@
 from django.db import models
 from django.contrib.auth.models import User
 from django.urls import reverse
+
 # Create your models here.
 
 
@@ -83,3 +84,4 @@ class Comment(models.Model):
     def dislike(self) ->None:
         self.rating -= 1
         self.save()
+

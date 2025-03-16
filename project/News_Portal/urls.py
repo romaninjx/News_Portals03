@@ -1,10 +1,15 @@
 from django.urls import path
 # Импортируем созданное нами представление
 from .views import (PostList, PostDetail, ArticlesCreate, NewsCreate, ArticlesUpdate, NewsUpdate, PostSearch,
-                    error_view, NewsDelete, ArticlesDelete)
+                    error_view, NewsDelete, ArticlesDelete, IndexView, upgrade_me)
+
+
+
 
 
 urlpatterns = [
+    path('upgrade/', upgrade_me, name = 'upgrade'),
+    path('user_lk/', IndexView.as_view(), name='user_lk'),
     path('', PostList.as_view(), name='post_list'),
     path('search/', PostSearch.as_view(), name='post_search'),
     path('news/create/', NewsCreate.as_view(), name='news_create'),
@@ -15,4 +20,4 @@ urlpatterns = [
     path('articles/<int:pk>/delete/', ArticlesDelete.as_view(), name='articles_delete'),
     path('<int:pk>', PostDetail.as_view(), name='post_info'),
     path('error/<str:error_name>/<str:error_message>/', error_view, name='error_view'),
-]
+    ]
