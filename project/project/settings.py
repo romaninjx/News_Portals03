@@ -167,7 +167,10 @@ SOCIALACCOUNT_PROVIDERS = {
     }
 }
 
-
-
-
 ACCOUNT_FORMS = {'signup': 'personal_accoun.forms.BasicSignupForm'} # тут пишем свой путь к форме
+
+EMAIL_HOST = 'smtp.yandex.ru'  # Адрес SMTP-сервера Яндекс
+EMAIL_PORT = 465  # Порт для SSL
+EMAIL_HOST_USER = 'djodiseq'  # Имя пользователя (до @)
+EMAIL_HOST_PASSWORD = 'FsS-ReU-2PB-FpS'  # Пароль от почты
+EMAIL_USE_SSL = True  # Использовать SSL

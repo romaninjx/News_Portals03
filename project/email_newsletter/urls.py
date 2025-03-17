@@ -1,4 +1,5 @@
 from django.urls import path
+from .views import AppointmentView
 
 
 
@@ -9,5 +10,4 @@ from django.urls import path
 
 
 
-
-urlpatterns = []
+urlpatterns = [path('', AppointmentView.as_view(), name='appointment'),]
