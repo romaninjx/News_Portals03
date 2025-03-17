@@ -40,6 +40,8 @@ INSTALLED_APPS = [
     'django.contrib.sites',
     'django.contrib.flatpages',
     'News_Portal',
+    'personal_accoun',
+    'email_newsletter',
     'fpages',
     'django_filters',
     'allauth',
@@ -168,4 +170,4 @@ SOCIALACCOUNT_PROVIDERS = {
 
 
 
-ACCOUNT_FORMS = {'signup': 'News_Portal.forms.BasicSignupForm'} # тут пишем свой путь к форме
+ACCOUNT_FORMS = {'signup': 'personal_accoun.forms.BasicSignupForm'} # тут пишем свой путь к форме

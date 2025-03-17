@@ -5,17 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="42d31563-bd7c-412e-8079-73f8b8b42a34" name="Changes" comment="create filter2">
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project/News_Portal/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/News_Portal/forms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/News_Portal/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/News_Portal/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project/News_Portal/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/News_Portal/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project/News_Portal/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/News_Portal/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/project/db.sqlite3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project/project/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/project/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project/project/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/project/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/templates/news.html" beforeDir="false" afterPath="$PROJECT_DIR$/project/templates/news.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/templates/error.html" beforeDir="false" afterPath="$PROJECT_DIR$/project/templates/news_portal/error.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/templates/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/project/templates/personal_accoun/main.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/templates/new.html" beforeDir="false" afterPath="$PROJECT_DIR$/project/templates/news_portal/new.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/templates/news.html" beforeDir="false" afterPath="$PROJECT_DIR$/project/templates/news_portal/news.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/templates/news_portal/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/project/templates/personal_accoun/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/templates/post_delete.html" beforeDir="false" afterPath="$PROJECT_DIR$/project/templates/news_portal/post_delete.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/templates/post_edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/project/templates/news_portal/post_edit.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/templates/search_post.html" beforeDir="false" afterPath="$PROJECT_DIR$/project/templates/news_portal/search_post.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/templates/socialaccount/snippets/login.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,6 +73,8 @@
       <recent name="B:\PyCharm Project\news_portal002\project" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="B:\PyCharm Project\news_portal002\project\templates\personal_accoun" />
+      <recent name="B:\PyCharm Project\news_portal002\project\templates\news_portal" />
       <recent name="B:\PyCharm Project\news_portal002\project\News_Portal\providers" />
       <recent name="B:\PyCharm Project\news_portal002\project\templates" />
     </key>

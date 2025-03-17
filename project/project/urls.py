@@ -24,6 +24,8 @@ from django.urls import path, include
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('pages/', include('django.contrib.flatpages.urls')),
-    path('news/', include(('News_Portal.urls'))),
+    path('news/', include('News_Portal.urls')),
     path('accounts/', include('allauth.urls')),
+    path('accoun/', include('personal_accoun.urls')),
+    path('newsletter/', include('email_newsletter.urls')),
 ]
